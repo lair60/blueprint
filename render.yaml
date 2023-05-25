@@ -4,4 +4,4 @@ services:
     name: myimage   
     env: image    
     image:
-        url: https://hub.docker.com/r/lair60/myimage
+        url: docker.io/lair60/myimage
