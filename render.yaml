@@ -6,4 +6,4 @@ services:
     plan: standard # optional (defaults to starter instance type)   
     env: image    
     image:
-     url: https://hub.docker.com/r/lair60/myimage
+        url: https://hub.docker.com/r/lair60/myimage
