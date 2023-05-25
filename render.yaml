@@ -2,7 +2,7 @@ services:
   # A Docker web service
   - type: web
     name: myimage
-    region: oregon # optional (defaults to oregon)
+    region: frankfurt # optional (defaults to oregon)
     plan: standard # optional (defaults to starter instance type)   
     env: image    
     image:
