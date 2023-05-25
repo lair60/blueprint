@@ -1,9 +1,7 @@
 services:
   # A Docker web service
   - type: web
-    name: myimage
-    region: frankfurt # optional (defaults to oregon)
-    plan: standard # optional (defaults to starter instance type)   
+    name: myimage   
     env: image    
     image:
         url: https://hub.docker.com/r/lair60/myimage
